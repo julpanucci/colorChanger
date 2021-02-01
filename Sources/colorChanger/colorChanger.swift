@@ -1,13 +1,13 @@
 import UIKit
 
 
-class ColorChanger {
-	static let shared = ColorChanger()
+public class ColorChanger {
+	public static let shared = ColorChanger()
 	
 	private let color = UIColor.blue
 	
 	
-	func changeColor(view: UIView) {
+	public func changeColor(view: UIView) {
 		view.backgroundColor = self.color
 	}
 }
