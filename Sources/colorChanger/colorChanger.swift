@@ -12,3 +12,17 @@ public class ColorChanger {
 		view.backgroundColor = self.color
 	}
 }
+
+public class ColorViewController: UIViewController {
+	public override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		self.view.backgroundColor = .orange
+		
+		let imageView = UIImageView(frame: CGRect(x: 50, y: 120, width: 200, height: 200))
+		imageView.image = ColorChanger.steelersLogo
+		imageView.backgroundColor = .red
+		
+		self.view.addSubview(imageView)
+	}
+}
