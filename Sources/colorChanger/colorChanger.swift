@@ -1,5 +1,5 @@
 import UIKit
-import TTTAttributedLabel
+import TTTAttributedLabel  
 
 
 public class ColorChanger {
